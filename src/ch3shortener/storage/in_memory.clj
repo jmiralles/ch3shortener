@@ -11,7 +11,6 @@
   [!stg id]
   (get @!stg id))
 
-
 (defn update-link*
   [!stg id url]
   (when (contains? @!stg id)
